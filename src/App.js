@@ -48,6 +48,7 @@ export default function Board() {
   return (
     <>
       <h3>Welcome to noughts and crosses!</h3>
+      <p>Get started by clicking a box</p>
     <div className='status'>{status}</div>
       <div className="board-row">
       <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
